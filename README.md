@@ -1,3 +1,6 @@
+## Live App
+You can try the dashboard here: https://kayodepanda-kpi-dashboard-africa-smb-dashboardapp-87v1wz.streamlit.app/
+
 # KPI Dashboard for African Small Businesses
 
 This project is a browser-based financial dashboard built with Python and Streamlit, designed to help small African businesses track key financial and customer performance indicators. It allows users to upload structured CSV files and automatically calculates KPIs including Profit, Customer Acquisition Cost (CAC), Lifetime Value (LTV), Churn Rate, and Revenue per Customer.
