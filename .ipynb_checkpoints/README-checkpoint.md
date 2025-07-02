@@ -1,3 +1,8 @@
+
+## Live App
+You can try the dashboard here: https://kayodepanda-kpi-dashboard-africa-smb-dashboardapp-87v1wz.streamlit.app/
+
+
 # KPI Dashboard for African Small Businesses
 
 This project is a browser-based financial dashboard built with Python and Streamlit, designed to help small African businesses track key financial and customer performance indicators. It allows users to upload structured CSV files and automatically calculates KPIs including Profit, Customer Acquisition Cost (CAC), Lifetime Value (LTV), Churn Rate, and Revenue per Customer.
@@ -6,8 +11,9 @@ The dashboard is fully interactive and generates visual summaries such as revenu
 
 The codebase is modular and extensible, making it suitable for adaptation to more complex or real-world datasets.
 
-## Dashboard Preview
-images/dashboard_preview.png
+### Dashboard Preview
+
+![Dashboard Preview](images/dashboard_preview.png)
 
 ## About Me
 
@@ -23,9 +29,9 @@ I designed and built this dashboard to give small African businesses better insi
 - Easy-to-read charts + tables
 - Interactive Streamlit web app
 
----
 
-## 📁 Folder Structure
+
+## Folder Structure
 
 kpi-dashboard-africa-smb/
 ├── dashboard/               # Streamlit app (main script)
@@ -42,19 +48,19 @@ kpi-dashboard-africa-smb/
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
 
+---
 
+## Sample KPI Output
 
+| Month     | Revenue | Expenses | Profit | Total Customers | CAC     | Revenue/Customer | LTV     | Churn Rate (%) |
+|-----------|---------|----------|--------|------------------|---------|------------------|---------|----------------|
+| Jan 2023  | 10,000  | 7,000    | 3,000  | 150              | 140.00  | 66.67            | 800.00  | 6.67           |
+| Feb 2023  | 12,000  | 7,500    | 4,500  | 200              | 125.00  | 60.00            | 720.00  | 6.00           |
+| Mar 2023  | 15,000  | 8,000    | 7,000  | 258              | 114.29  | 58.14            | 697.67  | 5.81           |
+| Apr 2023  | 17,000  | 8,500    | 8,500  | 323              | 106.25  | 52.63            | 631.58  | 5.26           |
+| May 2023  | 20,000  | 9,000    | 11,000 | 396              | 100.00  | 50.51            | 606.06  | 5.01           |
 
-## KPI Preview
-
-Here’s a snapshot of KPIs based on a sample dataset of monthly revenue and customer growth:
-
-  Month	    Revenue	 Expenses  Profit  Total Customers	 CAC	    Revenue per Customer   LTV	    Churn Rate (%)
-Jan 2023	10,000	 7,000	  3,000	    150	             140.00	       66.67	           800.00	      6.67
-Feb 2023	12,000	 7,500	  4,500	    200	             125.00	       60.00	           720.00	      6.00
-Mar 2023	15,000	 8,000	  7,000	    258	             114.29	       58.14	           697.67	      5.81
-Apr 2023	17,000	 8,500	  8,500	    323	             106.25	       52.63	           631.58	      5.26
-May 2023	20,000	 9,000	  11,000	396	             100.00	       50.51	           606.06	      5.01
+---
 
 ##  Visual Output
 
@@ -62,25 +68,29 @@ The dashboard includes several visualizations to give users a quick overview of 
 Here are some of the visual insights generated from this project:
 
 ###  Revenue vs Expenses Over Time  
+
 Displays monthly revenue and expenses side-by-side to highlight profitability trends.
-images/revenue_expenses_chart.png
+(images/revenue_expenses_chart.png)
 
 ### CAC vs LTV  
+
 Visualizes the relationship between Customer Acquisition Cost and Lifetime Value to assess customer profitability.
-images/cac_ltv_chart.png
+(images/cac_ltv_chart.png)
 
 ## Profit Trend
+
 Shows the progression of net profit over the selected time period.
-images/profit_trend_chart.png
+(images/profit_trend_chart.png)
 
 ## Customer Growth Over Time
+
 Tracks the number of total customers each month, reflecting business expansion.
-images/customer_growth_chart.png
+(images/customer_growth_chart.png)
 
 ## Customer Churn Rate
 
 Represents the monthly churn rate percentage, helping identify customer retention trends.
-images/customer_churn_rate.png
+(images/customer_churn_rate.png)
 
 
 ---
