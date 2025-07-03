@@ -32,7 +32,7 @@ I designed and built this dashboard to give small African businesses better insi
 
 
 ## Folder Structure
-
+```
 kpi-dashboard-africa-smb/
 ├── dashboard/               # Streamlit app (main script: app.py)
 ├── data/                    # Sample financial dataset (CSV)
@@ -47,7 +47,7 @@ kpi-dashboard-africa-smb/
 │   └── customer_churn_rate.png
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
-
+```
 ---
 
 ## Sample KPI Output
