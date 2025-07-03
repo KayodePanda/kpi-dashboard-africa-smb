@@ -7,7 +7,9 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ## Live App
-You can try the dashboard here: https://kayodepanda-kpi-dashboard-africa-smb-dashboardapp-87v1wz.streamlit.app/
+[Try the Dashboard](https://kayodepanda-kpi-dashboard-africa-smb-dashboardapp-87v1wz.streamlit.app/)
+
+---
 
 ## Overview
 
@@ -41,40 +43,6 @@ Although the dataset incorporated is simulated for demonstration purposes, the u
 
 [![Dashboard Preview](images/dashboard_preview.png)](images/dashboard_preview.png)
 
-## About Me
-
-My name is Kayode Olorunmaiye. I have an academic background in data science and economics, and I focus on solving real-world business problems through data. My interest lies in building tools that help businesses make smarter decisions, especially in environments where access to professional analytics is limited.This project reflects that goal. 
-I designed and built this dashboard to give small African businesses better insight into their financial performance using metrics like profit, CAC, LTV, and churn. It’s a modular, browser-based tool that simplifies financial analysis without requiring technical expertise. I’m continuing to explore ways that data can support business growth at all levels.
-
-
-## What This Dashboard Shows
-
-- Revenue, Expenses, and Profit analysis
-- CAC (Customer Acquisition Cost), LTV (Lifetime Value), Profit Margin
-- Customer Growth Rate
-- Easy-to-read charts + tables
-- Interactive Streamlit web app
-
-
-
-## Folder Structure
-```
-kpi-dashboard-africa-smb/
-├── dashboard/               # Streamlit app (main script: app.py)
-├── data/                    # Sample financial dataset (CSV)
-├── notebooks/               # Jupyter notebooks for KPI logic and testing
-├── scripts/                 # Optional helper scripts (modular codebase)
-├── images/                  # Dashboard screenshots
-│   ├── dashboard_preview.png
-│   ├── revenue_expenses_chart.png
-│   ├── cac_ltv_chart.png
-│   ├── profit_trend_chart.png
-│   ├── customer_growth_chart.png
-│   └── customer_churn_rate.png
-├── requirements.txt         # Python dependencies
-└── README.md                # Project documentation
-```
----
 
 ## Sample KPI Output
 
@@ -118,7 +86,6 @@ Tracks the number of total customers each month, reflecting business expansion.
 Represents the monthly churn rate percentage, helping identify customer retention trends.
 [![Churn Rate Chart](images/customer_churn_rate.png)](images/customer_churn_rate.png)
 
-
 ---
 
 ##  Tools Used
@@ -131,6 +98,26 @@ Represents the monthly churn rate percentage, helping identify customer retentio
 - Git & GitHub
 
 ---
+
+## Folder Structure
+```
+kpi-dashboard-africa-smb/
+├── dashboard/               # Streamlit app (main script: app.py)
+├── data/                    # Sample financial dataset (CSV)
+├── notebooks/               # Jupyter notebooks for KPI logic and testing
+├── scripts/                 # Optional helper scripts (modular codebase)
+├── images/                  # Dashboard screenshots
+│   ├── dashboard_preview.png
+│   ├── revenue_expenses_chart.png
+│   ├── cac_ltv_chart.png
+│   ├── profit_trend_chart.png
+│   ├── customer_growth_chart.png
+│   └── customer_churn_rate.png
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
+```
+---
+
 
 ## How to Run the App
 
@@ -151,19 +138,28 @@ streamlit run dashboard/app.py
 - Interactive Streamlit web app
 ```
 
+---
+
 ## Future Improvements
 - Currency selector for different African markets
 - Exportable reports (PDF or Excel)
 - Integration with live data sources (e.g. Google Sheets)
 - Optional user accounts for private use
 
+---
+
 ## About Me
 
 I’m Kayode Olorunmaiye, and I have a background in economics and data science. My passion lies in creating data tools that address real-world challenges for a wide range of clients, from small businesses and startups to larger organizations. I aim to deliver flexible analytics solutions that can adapt to various needs, ensuring that no one feels constrained by limited resources.
 This project represents my mission to bridge that gap. It offers a simple, adaptable KPI dashboard that evolves alongside users’ needs, helping them turn raw data into meaningful insights.
 
+---
+
 ## License
 
 This project is licensed under the MIT License — feel free to use, modify, or build on it with credit.
 
+<!--
+Keywords: KPI Dashboard, Streamlit Dashboard, SME Analytics Africa, Customer Acquisition Cost, LTV Calculator, Churn Analysis, Business Data Visualization, Python Financial Tool, Small Business Dashboard, Streamlit Portfolio Project
+-->
 
