@@ -47,7 +47,7 @@ kpi-dashboard-africa-smb/
 │   └── customer_churn_rate.png
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
-﻿
+
 ---
 
 ## Sample KPI Output
