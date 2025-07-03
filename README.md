@@ -13,7 +13,7 @@ The codebase is modular and extensible, making it suitable for adaptation to mor
 
 ### Dashboard Preview
 
-![Dashboard Preview](images/dashboard_preview.png)
+[![Dashboard Preview](images/dashboard_preview.png)](images/dashboard_preview.png)
 
 ## About Me
 
@@ -34,20 +34,20 @@ I designed and built this dashboard to give small African businesses better insi
 ## Folder Structure
 
 kpi-dashboard-africa-smb/
-├── dashboard/               # Streamlit app (main script)
-├── data/                    # Sample financial data (CSV)
+├── dashboard/               # Streamlit app (main script: app.py)
+├── data/                    # Sample financial dataset (CSV)
 ├── notebooks/               # Jupyter notebooks for KPI logic and testing
 ├── scripts/                 # Optional helper scripts (modular codebase)
-├── images/                  # All project screenshots
-│   ├── dashboard_preview.png      # Main app layout preview
-│   ├── revenue_expenses_chart.png # Revenue vs. Expenses chart
-│   ├── profit_trend_chart.png     # Monthly profit trend chart
-│   ├── cac_ltv_chart.png          # CAC vs. LTV comparison
-│   ├── customer_growth_chart.png  # Customer growth over time
-│   └── customer_churn_rate.png    # Monthly churn rate
+├── images/                  # Dashboard screenshots
+│   ├── dashboard_preview.png
+│   ├── revenue_expenses_chart.png
+│   ├── cac_ltv_chart.png
+│   ├── profit_trend_chart.png
+│   ├── customer_growth_chart.png
+│   └── customer_churn_rate.png
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
-
+﻿
 ---
 
 ## Sample KPI Output
@@ -70,27 +70,27 @@ Here are some of the visual insights generated from this project:
 ###  Revenue vs Expenses Over Time  
 
 Displays monthly revenue and expenses side-by-side to highlight profitability trends.
-(images/revenue_expenses_chart.png)
+[![Revenue vs. Expenses Chart](images/revenue_expenses_chart.png)](images/revenue_expenses_chart.png)
 
 ### CAC vs LTV  
 
 Visualizes the relationship between Customer Acquisition Cost and Lifetime Value to assess customer profitability.
-(images/cac_ltv_chart.png)
+[![CAC vs. LTV Chart](images/cac_ltv_chart.png)](images/cac_ltv_chart.png)
 
 ## Profit Trend
 
 Shows the progression of net profit over the selected time period.
-(images/profit_trend_chart.png)
+[![Profit Trend Chart](images/profit_trend_chart.png)](images/profit_trend_chart.png)
 
 ## Customer Growth Over Time
 
 Tracks the number of total customers each month, reflecting business expansion.
-(images/customer_growth_chart.png)
+[![Customer Growth Chart](images/customer_growth_chart.png)](images/customer_growth_chart.png)
 
 ## Customer Churn Rate
 
 Represents the monthly churn rate percentage, helping identify customer retention trends.
-(images/customer_churn_rate.png)
+[![Churn Rate Chart](images/customer_churn_rate.png)](images/customer_churn_rate.png)
 
 
 ---
