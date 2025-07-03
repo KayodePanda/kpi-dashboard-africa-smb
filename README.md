@@ -1,15 +1,41 @@
 
+# KPI Dashboard for African Small Businesses
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-orange)
+![Status](https://img.shields.io/badge/Status-Live-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 ## Live App
 You can try the dashboard here: https://kayodepanda-kpi-dashboard-africa-smb-dashboardapp-87v1wz.streamlit.app/
 
+## Overview
 
-# KPI Dashboard for African Small Businesses
+This lightweight, browser-based dashboard is specifically designed to empower small African businesses by enabling them to efficiently monitor and analyze their key performance indicators (KPIs) without the need for complex analytics tools. Utilizing an intuitive and user-friendly Streamlit interface, it simplifies the process of tracking vital financial and customer metrics, making data-driven decision-making accessible even for users with limited technical backgrounds. Key metrics include profit margins, customer acquisition cost (CAC), customer lifetime value (LTV), churn rates, and revenue per customer, all essential for assessing business health and growth potential.
 
-This project is a browser-based financial dashboard built with Python and Streamlit, designed to help small African businesses track key financial and customer performance indicators. It allows users to upload structured CSV files and automatically calculates KPIs including Profit, Customer Acquisition Cost (CAC), Lifetime Value (LTV), Churn Rate, and Revenue per Customer.
+Although the dataset incorporated is simulated for demonstration purposes, the underlying logic and structural design mirror real-world SME financial operations, providing users with a practical and relevant experience. The tool’s modular architecture ensures it is both scalable and adaptable, allowing customization to suit different regions or business models.
 
-The dashboard is fully interactive and generates visual summaries such as revenue trends, expense tracking, and customer behavior patterns. Although the data used is simulated, the logic and layout are designed to reflect realistic SME financial performance.
+---
 
-The codebase is modular and extensible, making it suitable for adaptation to more complex or real-world datasets.
+## Key Features
+
+- Upload and manage structured CSV files containing financial and customer data
+- Automated calculation of KPIs for quick insights
+- Interactive visualizations including charts and dynamic metrics
+- Tailored for non-technical users to facilitate ease of use
+- Modular and extensible codebase for future enhancements
+- Entirely browser-based, eliminating the need for local software installations
+
+---
+
+## Who it's For
+
+- Entrepreneurs and small business owners across Africa looking for accessible analytics solutions
+- Data analysts developing minimal viable product (MVP) dashboards
+- Educators teaching concepts of KPIs, data analysis, or dashboard development
+- Anyone interested in no-code tools for financial decision support and strategic planning
+
+---
 
 ### Dashboard Preview
 
@@ -122,7 +148,22 @@ pip install -r requirements.txt
 streamlit run dashboard/app.py
 
 
-
-
 - Interactive Streamlit web app
+```
+
+## Future Improvements
+- Currency selector for different African markets
+- Exportable reports (PDF or Excel)
+- Integration with live data sources (e.g. Google Sheets)
+- Optional user accounts for private use
+
+## About Me
+
+I’m Kayode Olorunmaiye, and I have a background in economics and data science. My passion lies in creating data tools that address real-world challenges for a wide range of clients, from small businesses and startups to larger organizations. I aim to deliver flexible analytics solutions that can adapt to various needs, ensuring that no one feels constrained by limited resources.
+This project represents my mission to bridge that gap. It offers a simple, adaptable KPI dashboard that evolves alongside users’ needs, helping them turn raw data into meaningful insights.
+
+## License
+
+This project is licensed under the MIT License — feel free to use, modify, or build on it with credit.
+
 
